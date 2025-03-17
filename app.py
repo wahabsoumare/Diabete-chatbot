@@ -8,10 +8,7 @@ import tensorflow as tf
 from tensorflow.keras.models import load_model
 import streamlit as st
 
-try:
-    nltk.data.find('tokenizers/punkt_tab')
-except LookupError:
-    nltk.download('punkt_tab')
+nltk.download('punkt_tab')
 stemmer = FrenchStemmer()
 intents = json.loads(open('data/intents.json', encoding = 'utf-8').read())
 words = pickle.load(open('data/words.pkl', 'rb'))
