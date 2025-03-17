@@ -31,7 +31,7 @@ L'objectif de ce projet est de développer un chatbot capable de fournir des inf
 
 1. **Cloner le dépôt**
 ```bash
-git clone [repository](https://github.com/wahabsoumare/Diabete-chatbot)
+git clone https://github.com/wahabsoumare/Diabete-chatbot
 cd chatbot-diabete
 ```
 
