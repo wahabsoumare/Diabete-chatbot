@@ -96,7 +96,7 @@ Validation Loss: 3.8233
 - Le modèle a montré de bonnes performances en répondant correctement à la plupart des questions.
 
 ## Déploiement
-
+- ![Aperçu du chatbot](videos/demo.gif)
 - Initialement, l'équipe a tenté de déployer avec Rasa et Twilio, mais des problèmes de compatibilité avec Python 12 ont empêché l'intégration.
 - Solution finale : Déploiement via Streamlit sur un serveur public.
 - Lien d'accès : [Chatbot Diabète](https://wahab-diabete-chatbot.streamlit.app/)
